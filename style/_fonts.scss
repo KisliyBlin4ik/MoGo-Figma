@@ -7,8 +7,8 @@ h1 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 144px;
-    line-height: 176px;
+    font-size: 9rem;//144px
+    line-height: 11rem;//176px
     text-transform: uppercase;
     color: white;
 }
@@ -17,8 +17,8 @@ h2 {
     font-family: 'Kaushan Script';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 43px;
+    font-size: 1.875rem;//30px
+    line-height: 2.68rem;//43px
     color: #2D3033; 
 }
 
@@ -26,8 +26,8 @@ h3 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 1.5rem;//24px
+    line-height: 2.18rem;//35px
     text-transform: uppercase;
     color: #2D3033;
 }
@@ -36,8 +36,8 @@ h4 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;//36px
+    line-height: 2.62rem;//42px
     text-transform: uppercase;
     color: #2D3033;
 }
@@ -46,8 +46,8 @@ h5 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.125rem;//18px
+    line-height: 1.31rem;//21px
     color: #2D3033;
 }
 
@@ -86,8 +86,8 @@ a {//кнопки навигации в banner
 
 .banner__text {//для шрифта Kaushan Script в banner
     color: white;
-    font-size: 64px;
-    line-height: 93px;
+    font-size: 4rem;//64px
+    line-height: 7.75rem;//93px
 }
 
 .slider__coment {//шрифт коментариев в слайдерах h5
@@ -114,6 +114,22 @@ a {//кнопки навигации в banner
 
 .ourTeam__UserWork, .happyClients__UserWork {//капс для текста
     text-transform: uppercase;
+}
+
+.footer__item {//для иконок footer в banner
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(249, 239, 207);
+    span {
+        font-weight: 700;
+        font-size: 36px;
+    }
+    
 }
 
 .ourStories__text {//для иконки даты и месяца
@@ -154,7 +170,7 @@ a {//кнопки навигации в banner
     text-transform: uppercase; 
 }
 .blog__footer {//для заголовка blog в footer
-    font-size: 18px;
+    font-size: 1.125rem;//18px
     line-height: 21px;
     padding: 4px 0;
 }
@@ -201,8 +217,8 @@ a {//кнопки навигации в banner
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;//24px
+    line-height: 1.75rem;//28px
     color: white;
     background: none;
     border: 4px solid white;
@@ -242,8 +258,11 @@ a {//кнопки навигации в banner
 }
 
 ::placeholder {// для input в footer
-    color: rgb(198, 203, 205);
-    font-size: 18px;
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 400;
+    color: rgb(198, 203, 205);
+    font-size: 1.125rem;//18px
     text-align: center;
 }
+
