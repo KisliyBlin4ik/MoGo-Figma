@@ -24,7 +24,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
         &:before {
             content: '';
             position: absolute;
-            background: url(../images/banner/eagle.png) center;
+            background: url(../images/banner/eagle.png);
             background-repeat: round;
             opacity: .1;
             width: 100%;
@@ -132,6 +132,10 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
         .banner {
             height: auto;
             padding: 0 16px;
+            &::before {
+                background: url(../images/banner/eagle.png) center;
+                background-repeat: no-repeat;
+            }
             .banner__header {
                 .header__container {
                     height: 68px;
@@ -183,7 +187,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                         z-index: 3;
                         &.active {
                             position: fixed;
-                            left: 93%;
+                            right: 16px;
                         }
                         & span {
                             position: absolute;
@@ -392,7 +396,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                             justify-content: center;
                             align-items: flex-end;
                             position: absolute;
-                            z-index: 2;
+                            z-index: 1;
                             left: 0;
                             top: -15%;
                             width: 100%;
@@ -402,7 +406,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                         &:hover {
                             &::after {
                                 transform: translate(0);
-                                z-index: 2;
+                                z-index: 1;
                                 opacity: 1;
                             }
                             .about__img::before {
@@ -411,7 +415,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                             }
                             .about__img::after {
                                 transform: translate(0);
-                                z-index: 2;
+                                z-index: 1;
                                 opacity: 1;                        
                             }
                         }
@@ -427,7 +431,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                                 justify-content: flex-start;
                                 padding: 0 20px 40px;
                                 position: absolute;
-                                z-index: 2;
+                                z-index: 1;
                                 left: 0;
                                 top: 65%;
                                 width: 100%;

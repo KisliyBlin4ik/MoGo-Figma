@@ -340,7 +340,7 @@ a {
 .wrapper .banner:before {
   content: "";
   position: absolute;
-  background: url(../images/banner/eagle.png) center;
+  background: url(../images/banner/eagle.png);
   background-repeat: round;
   opacity: 0.1;
   width: 100%;
@@ -441,6 +441,10 @@ a {
     height: auto;
     padding: 0 16px;
   }
+  .wrapper .banner::before {
+    background: url(../images/banner/eagle.png) center;
+    background-repeat: no-repeat;
+  }
   .wrapper .banner .banner__header .header__container {
     height: 68px;
   }
@@ -479,7 +483,7 @@ a {
   }
   .wrapper .banner .banner__header .header__container .header__burger.active {
     position: fixed;
-    left: 93%;
+    right: 16px;
   }
   .wrapper .banner .banner__header .header__container .header__burger span {
     position: absolute;
@@ -668,7 +672,7 @@ a {
     justify-content: center;
     align-items: flex-end;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     left: 0;
     top: -15%;
     width: 100%;
@@ -676,7 +680,7 @@ a {
   }
   .wrapper main .about .about__content .about__item:hover::after {
     transform: translate(0);
-    z-index: 2;
+    z-index: 1;
     opacity: 1;
   }
   .wrapper main .about .about__content .about__item:hover .about__img::before {
@@ -685,7 +689,7 @@ a {
   }
   .wrapper main .about .about__content .about__item:hover .about__img::after {
     transform: translate(0);
-    z-index: 2;
+    z-index: 1;
     opacity: 1;
   }
   .wrapper main .about .about__content .about__item .about__img::before {
@@ -698,7 +702,7 @@ a {
     justify-content: flex-start;
     padding: 0 20px 40px;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     left: 0;
     top: 65%;
     width: 100%;
