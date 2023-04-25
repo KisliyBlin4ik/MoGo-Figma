@@ -288,6 +288,11 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
 
 
 
+
+
+
+
+    
     main {
         .about {
             display: flex;
@@ -448,6 +453,11 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
 
 
 
+
+
+
+
+
         .futures {
             background: rgb(149, 225, 211);
             width: 100%;
@@ -496,6 +506,12 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     
+
+
+
+
+
+
 
 
 
@@ -578,6 +594,13 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     
+
+
+
+
+
+
+
 
 
 
@@ -745,6 +768,13 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
 
 
 
+
+
+
+
+
+
+
         .service {
             .service__container {
                 max-width: 1170px;
@@ -813,7 +843,9 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
 
                                 .tab__label {
                                     display: flex;
-                                    justify-content: space-between;
+                                    position: relative;
+                                    justify-content: flex-start;
+                                    gap: 40px;
                                     align-items: center;
                                     padding: 10px;
                                     height: 92px;
@@ -823,8 +855,11 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                                     cursor: pointer;
                                     &::after {
                                         content: '\276F';
-                                        width: 15px;
-                                        height: 20px;
+                                        position: absolute;
+                                        top: 37%;
+                                        left: 45%;
+                                        width: 100%;
+                                        height: 25%;
                                         text-align: center;
                                         transition: 0.3s;
                                     
@@ -913,6 +948,13 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     
+
+
+
+
+
+
+
 
 
 
@@ -1024,6 +1066,14 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     
+
+
+
+
+
+
+
+
 
 
 
@@ -1154,6 +1204,13 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
 
 
 
+
+
+
+
+
+
+
         .partners {
             width: 100%;
             background: rgb(248, 248, 248);
@@ -1232,6 +1289,14 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     
+
+
+
+
+
+
+
+
 
 
 
@@ -1386,6 +1451,14 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
 
 
 
+
+
+
+
+
+
+
+
         .reviews-2 {
             width: 100%;
             height: 254px;
@@ -1494,6 +1567,12 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     
+
+
+
+
+
+
 
 
 
@@ -1619,6 +1698,14 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
 
 
 
+
+
+
+
+
+
+
+
         .ourStories {
             .ourStories__container {
                 max-width: 1170px;
@@ -1738,6 +1825,14 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
 
 
 
+
+
+
+
+
+
+
+
         .map {
             background: rgba(255, 255, 255, 0.9);
             width: 100%;
@@ -1774,6 +1869,8 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
         @media only screen and (max-device-width: 769px) {}
     
     }
+
+
 
 
 
@@ -1946,9 +2043,11 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                         max-width: 100%;
                         text-align: center;
                         .mogoSocial__logo {
-                            background: url(../images/footer/mogo/logoMogo769px.png);
+                            background: url(../images/footer/mogo/MoGo769px.png) center;
+                            background-repeat: no-repeat;
                             height: 68px;
-                            width: 287px;
+                            width: 100%;
+                            max-width: 287px;
                             margin: 0 auto;
                             img {
                                 display: none;

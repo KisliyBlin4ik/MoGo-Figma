@@ -100,13 +100,23 @@ a {//кнопки навигации в banner
                                 
 }
 
+.servies__label-text {//шрифт заголовков в servies
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;//24px
+    line-height: 2.18rem;//35px
+    text-transform: uppercase;
+    color: #2D3033;
+}
+
 .futures__text {//шрифт для futures
     flex-direction: column;
     font-weight: 500;
     font-size: 24px;
     color: white;
     text-transform: none;
-    p {
+    span {
         font-size: 64px;
         font-weight: 700;
     }
@@ -142,7 +152,7 @@ a {//кнопки навигации в banner
     text-transform: uppercase;
     text-align: center;
     color: rgb(255, 255, 255);
-    p {
+    span {
         font-weight: 700;
         font-size: 36px;
     }
