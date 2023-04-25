@@ -810,11 +810,16 @@ a {
   .wrapper main .amazingServices .amazingServices__container .amazingServices__content .amazingServices__items {
     max-height: 94px;
   }
+  .wrapper main .amazingServices .amazingServices__container .amazingServices__content .amazingServices__items .amazingServices__icons {
+    max-width: 57px;
+    width: 100%;
+  }
   .wrapper main .amazingServices .amazingServices__container .amazingServices__content .amazingServices__items .amazingServices__icons img {
     width: 57px;
     height: 57px;
   }
   .wrapper main .amazingServices .amazingServices__container .amazingServices__content .amazingServices__items .amazingServices__text {
+    max-width: 211px;
     justify-content: space-evenly;
   }
 }
@@ -961,8 +966,6 @@ a {
     justify-content: center;
     top: 18%;
     left: 25%;
-    width: 40%;
-    height: 100%;
     background: url(../images/allDevices/tablet769px/screen-mobile.png) center center;
     background-repeat: no-repeat;
   }
