@@ -1356,7 +1356,7 @@ a {
   justify-content: space-between;
 }
 .wrapper main .partners .partners__icons img:hover {
-  scale: 1.2;
+  transform: scale(1.2);
   transition: 0.3s;
 }
 @media only screen and (max-width: 1201px) {
