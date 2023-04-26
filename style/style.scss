@@ -2,7 +2,7 @@
 @import '_fonts';
 $linear-gradient: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
 $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255,255,1) 23%);
-@media only screen and (max-device-width: 1201px) {
+@media only screen and (max-width: 1201px) {
     :root {
         font-size: 12px;
     }
@@ -132,7 +132,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     }
-    @media only screen and (max-device-width: 1201px) {
+    @media only screen and (max-width: 1201px) {
         .banner {
             height: auto;
             padding: 0 16px;
@@ -158,7 +158,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     }
-    @media only screen and (max-device-width: 769px) {
+    @media only screen and (max-width: 769px) {
         .banner {
             &::before {
                 background: url(../images/banner/eagle.png) center;
@@ -179,7 +179,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     }
-    @media only screen and (max-device-width: 769px) {//бургер меню
+    @media only screen and (max-width: 769px) {//бургер меню
         .banner {
             .banner__header {
                 .header__container {
@@ -391,12 +391,12 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .about {
                 padding: 28px 16px 59px;
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .about {
                 .about__header {
                     max-width: 480px;
@@ -492,12 +492,12 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .futures {
                 padding: 0 16px;
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .futures {
                 .futures__container {
                     max-width: 320px;
@@ -567,12 +567,12 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .amazingServices {
                 padding: 29px 16px 58px;
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .amazingServices {
                 .amazingServices__container {
                     padding: 0;
@@ -698,7 +698,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 } 
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .allDevices {
                 height: 588px;
                 .allDevices__container {
@@ -732,7 +732,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .allDevices {
                 height: 514px;
                 .allDevices__container {
@@ -895,7 +895,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .service {
                 .service__container {
                     padding: 86px 16px 88px;
@@ -932,7 +932,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .service {
                 .service__container {
                     max-width: 480px;
@@ -1013,7 +1013,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .reviews {
                 height: 172px;
                 .reviews__container {
@@ -1033,7 +1033,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .reviews {
                 height: 238px;
                 .reviews__container {
@@ -1150,7 +1150,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .ourTeam {
                 .ourTeam__container {
                     padding: 57px 16px;
@@ -1167,7 +1167,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .ourTeam {
                 .ourTeam__container {
                     max-width: 480px;
@@ -1238,7 +1238,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .partners {
                 .partners__icons {
                     max-width: 1024px;
@@ -1263,7 +1263,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .partners {
                 .partners__icons {
                     height: 396px;
@@ -1401,7 +1401,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .ourWork {
                 padding: 57px 0;
                 .ourWork__header {
@@ -1410,7 +1410,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .ourWork {
                 .ourWork__content {
                     grid-template-columns: 1fr 1fr;
@@ -1510,7 +1510,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .reviews-2 {
                 margin-bottom: 57px;
                 height: 173px;
@@ -1533,7 +1533,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .reviews-2 {
                 height: 369px;
                 margin-bottom: 29px;
@@ -1654,7 +1654,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .happyClients {
                 height: 625px;
                 .happyClients__container {
@@ -1674,7 +1674,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .happyClients {
                 height: auto;
                 &::before {
@@ -1795,7 +1795,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .ourStories {
                 .ourStories__container {
                     padding: 57px 16px;
@@ -1822,7 +1822,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 }
             }
         }
-        @media only screen and (max-device-width: 769px) {
+        @media only screen and (max-width: 769px) {
             .ourStories {
                 .ourStories__container {
                     padding: 29px 16px ;
@@ -1871,12 +1871,12 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 justify-content: space-evenly;
             }
         }
-        @media only screen and (max-device-width: 1201px) {
+        @media only screen and (max-width: 1201px) {
             .map {
                 height: 156px;
             }
         }
-        @media only screen and (max-device-width: 769px) {}
+        @media only screen and (max-width: 769px) {}
     
     }
 
@@ -1996,7 +1996,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     }
-    @media only screen and (max-device-width: 1201px) {
+    @media only screen and (max-width: 1201px) {
         footer {
             .footer__container {
                 padding: 28px 16px 0;
@@ -2042,7 +2042,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
             }
         }
     }
-    @media only screen and (max-device-width: 769px) {
+    @media only screen and (max-width: 769px) {
         footer {
             max-width: 480px;
             margin: 0 auto;
