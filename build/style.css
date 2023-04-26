@@ -390,6 +390,7 @@ a {
 .wrapper .banner .banner__header .header__container .header__menu .header__list li .header__link {
   color: rgb(255, 255, 255);
   padding: 0 10px;
+  transition: 0.3s;
 }
 .wrapper .banner .banner__header .header__container .header__menu .header__list li .header__link:hover {
   border-bottom: 1px solid rgb(244, 191, 135);
@@ -494,6 +495,7 @@ a {
   }
   .wrapper .banner .banner__header .header__container .header__burger {
     display: block;
+    cursor: pointer;
     position: relative;
     width: 30px;
     height: 20px;
@@ -611,6 +613,7 @@ a {
 }
 .wrapper main .about .about__content .about__item {
   position: relative;
+  cursor: pointer;
   width: 100%;
   max-width: 370px;
   height: 100%;
@@ -1257,6 +1260,7 @@ a {
 }
 .wrapper main .ourTeam .ourTeam__container .ourTeam__content .ourTeam__item {
   text-align: center;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1439,6 +1443,7 @@ a {
   width: 100%;
 }
 .wrapper main .ourWork .ourWork__content .ourWork__block {
+  cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;
