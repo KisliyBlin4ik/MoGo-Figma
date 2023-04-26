@@ -11,6 +11,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
 
 .wrapper {
     display: block;
+    overflow-x: hidden;
     .banner {
         background: $linear-gradient;
         display: flex;
