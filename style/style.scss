@@ -42,6 +42,10 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                 justify-content: space-between;
                 align-items: center;
                 margin: 0 auto;
+                .header__logo {
+                    position: relative;
+                    z-index: 3;
+                }
                 .header__burger {
                     display: none;
                 }
@@ -179,6 +183,11 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
         .banner {
             .banner__header {
                 .header__container {
+                    .header__logo {
+                        &.active {
+                            position: fixed;
+                        }
+                    }
                     .header__burger {
                         display: block;
                         position: relative;
@@ -868,6 +877,7 @@ $linear-gradient-2: linear-gradient(90deg, rgba(243,130,129,1) 23%, rgba(255,255
                                         display: flex;
                                         align-items: center;
                                         gap: 40px;
+                                        
                                     }
                                 
 

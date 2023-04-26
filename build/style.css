@@ -370,6 +370,10 @@ a {
   align-items: center;
   margin: 0 auto;
 }
+.wrapper .banner .banner__header .header__container .header__logo {
+  position: relative;
+  z-index: 3;
+}
 .wrapper .banner .banner__header .header__container .header__burger {
   display: none;
 }
@@ -484,6 +488,9 @@ a {
   }
 }
 @media only screen and (max-device-width: 769px) {
+  .wrapper .banner .banner__header .header__container .header__logo.active {
+    position: fixed;
+  }
   .wrapper .banner .banner__header .header__container .header__burger {
     display: block;
     position: relative;
